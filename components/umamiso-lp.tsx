@@ -67,22 +67,6 @@ export default function UmamisoLP() {
       image: "/images/aizubrandhall-4571318634455-i-20240514124653.jpeg",
       badge: "人気No.1",
     },
-    {
-      id: "4set",
-      title: "4種詰め合わせセット",
-      description: "いろいろ楽しめる",
-      price: "2,760円（送料無料）",
-      image: "/images/aizubrandhall-4571318634493-i-20240520124529.jpeg",
-      badge: null,
-    },
-    {
-      id: "6set",
-      title: "6種詰め合わせセット",
-      description: "ギフトにも最適！大切なあの方への贈り物に",
-      price: "3,840円（送料無料）",
-      image: "/images/aizubrandhall-4571318634509-i-20240520142534.jpeg",
-      badge: "ギフトにおすすめ",
-    },
   ]
 
   const ingredients = [
