@@ -283,8 +283,8 @@ export default function UmamisoLP() {
               </div>
               <div className="relative aspect-[4/3] w-full rounded-lg overflow-hidden shadow-lg">
                 <Image
-                  src="/images/hf-20260129-052152-fed6388f-9a21-43e6-b403.jpeg"
-                  alt="会津の馬"
+                  src="/images/basashi-plate.jpg"
+                  alt="会津の馬刺し盛り合わせ"
                   fill
                   className="object-cover"
                 />
