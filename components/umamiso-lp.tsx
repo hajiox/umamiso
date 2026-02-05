@@ -299,6 +299,27 @@ export default function UmamisoLP() {
               <p className="text-stone-700 mb-6 leading-relaxed">
                 会津の馬刺しを支えるのが、会津畜産。全国（主に北海道）の生産者から素馬を仕入れ、自社の牧場で3ヶ月から2年かけて丁寧に肥育。独自の配合飼料（遊離アミノ酸含有量を増やし旨味を引き出す）を与え、約400頭の馬を健康的に育てています。
               </p>
+              
+              {/* 厩舎とX線検査の写真 */}
+              <div className="grid md:grid-cols-2 gap-4 mb-6">
+                <div className="relative aspect-[4/3] w-full rounded-lg overflow-hidden shadow-md">
+                  <Image
+                    src="/images/aizu-chikusan-stable.jpg"
+                    alt="会津畜産の厩舎内部"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <div className="relative aspect-[4/3] w-full rounded-lg overflow-hidden shadow-md">
+                  <Image
+                    src="/images/xray-inspection.jpg"
+                    alt="X線検査による品質管理"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+              </div>
+              
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="flex items-start gap-3 p-4 bg-white rounded-lg">
                   <CheckCircle className="w-5 h-5 text-amber-600 flex-shrink-0 mt-0.5" />
