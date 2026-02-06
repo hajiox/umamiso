@@ -527,6 +527,63 @@ export default function UmamisoLP() {
         </div>
       </section>
 
+      {/* 製造・販売・発送元 */}
+      <section className="py-12 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-3xl mx-auto text-center">
+            <p className="text-base md:text-lg font-semibold text-stone-800 mb-8">
+              {"この商品は「会津ブランド館」が製造・販売・発送を行っています。"}
+            </p>
+            <div className="bg-stone-50 rounded-2xl p-6 md:p-8">
+              <h3 className="text-lg md:text-xl font-bold text-stone-800 mb-6">店舗案内</h3>
+              <div className="space-y-2 text-stone-700 text-sm md:text-base leading-relaxed">
+                <p className="font-bold text-stone-800">会津ブランド館</p>
+                <p>〒965-0044</p>
+                <p>福島県会津若松市七日町6-15</p>
+                <p>TEL: 0242-25-4141</p>
+                <p>営業時間: 11時〜16時</p>
+                <p>定休日: 12月31日・1月1日</p>
+                <p className="text-stone-500 text-xs">（発送もお休みさせて頂きます）</p>
+              </div>
+              <div className="flex items-center justify-center gap-4 mt-6">
+                <Link
+                  href="https://www.facebook.com/aizubrandhall/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-stone-500 hover:text-stone-800 transition-colors text-sm"
+                >
+                  Facebook
+                </Link>
+                <Link
+                  href="https://twitter.com/Aizu_Brand_Kan"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-stone-500 hover:text-stone-800 transition-colors text-sm"
+                >
+                  X (Twitter)
+                </Link>
+                <Link
+                  href="https://www.instagram.com/aizubrandhall/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-stone-500 hover:text-stone-800 transition-colors text-sm"
+                >
+                  Instagram
+                </Link>
+                <Link
+                  href="https://www.youtube.com/@aizubrandhall"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-stone-500 hover:text-stone-800 transition-colors text-sm"
+                >
+                  YouTube
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* フッター */}
       <footer className="bg-stone-800 text-white py-6">
         <div className="container mx-auto px-4 text-center text-stone-400 text-sm">
