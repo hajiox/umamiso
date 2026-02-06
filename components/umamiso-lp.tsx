@@ -17,30 +17,30 @@ export default function UmamisoLP() {
 
   const reviews = [
     {
-      source: "楽天",
-      title: "ホントだ〜！めちゃめちゃ美味〜い！",
-      comment: "馬だけにウマ！って声が出たよ. 大葉とエゴマが入っていて馬肉の臭みは一切なく、ご飯にのせて即完食！リピ確定です。",
-      rating: 5,
+      source: "Yahoo!",
+      title: "おいしい！",
+      comment: "推しが紹介していたので購入。ごはんにのせるだけで食べれる手軽さがいいです。アレンジも少しやってみたけど、そのままがおいしい。開封しない限りは常温保存できるので、2個セットも全然問題なく消費できそうです。またなくなったら頼みたいです",
+      rating: 4,
       name: "お客様１",
     },
     {
-      source: "楽天",
-      title: "アカン",
-      comment: "マジでうま味噌がとんでもなく美味い 味噌の後に抜けてく爽やかさ（しょうが、大葉、えごま）が強烈にいい",
+      source: "Yahoo!",
+      title: "何でも合う",
+      comment: "肉っぽいくさみやえぐみ全くなく、肉味噌の味の濃さに加えて大葉やえごまの爽やかな風味がとても美味しいです 白米だけでなく、麺類の具としても良さそうです",
       rating: 5,
       name: "お客様２",
     },
     {
-      source: "Yahoo",
-      title: "『食べるウマ味噌』はとんでもないですから！",
-      comment: "ピリッとしたアクセントがご飯を進ませる。アレンジ自在で便利！",
-      rating: 4,
+      source: "楽天",
+      title: "美味い！",
+      comment: "私もラジオ番組を聴いてしりました。 ラジオパーソナリティの方が絶賛していたので試してみたくなり即購入しました。 食べてみたら最高に美味しかったです！",
+      rating: 5,
       name: "お客様３",
     },
     {
-      source: "X",
-      title: "メディアで紹介された通り、家族みんなのお気に入りに",
-      comment: "「もはやお店で食べるより美味しい！」との高評価レビュー続出の話題の商品です。（会津ブランド館公式Xハイライト）",
+      source: "Yahoo!",
+      title: "ご飯がすすむ！",
+      comment: "食欲がなかった主人におにぎりの具にして出したところ、美味い美味いとペロリと平らげました！パスタの隠し味にしてもgoodでした^_^ リピします^_^",
       rating: 5,
       name: "お客様４",
     },
@@ -103,7 +103,7 @@ export default function UmamisoLP() {
     },
     {
       question: "馬肉の臭いが気になりますか？",
-      answer: "馬肉特有の臭みは一切なく、大葉の爽やかな香りとえごまのプチプチ食感がアクセントになっています。レビューでも「臭みゼロで食べやすい」と好評です！明治時代からの会津伝統を現代風にアレンジした味わいをお楽しみください。",
+      answer: "馬肉特有の臭みは一切なく、大葉の爽やかな香りとえごまのプチプチ食感がアクセントになっています。明治時代からの会津伝統を現代風にアレンジした味わいをお楽しみください。",
     },
     {
       question: "おすすめの食べ方は何ですか？",
@@ -119,16 +119,16 @@ export default function UmamisoLP() {
     <>
       {/* ヘッダー */}
       <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-stone-200">
-        <div className="container mx-auto px-4 py-3 flex items-center justify-between">
-          <Link href="/" className="flex items-center gap-2">
-            <span className="text-lg font-bold text-stone-800">会津ブランド館</span>
+        <div className="container mx-auto px-4 py-3 flex items-center justify-center">
+          <Link href="/">
+            <Image
+              src="/images/aizu-brand-hall-logo.jpg"
+              alt="会津ブランド館"
+              width={180}
+              height={48}
+              className="h-10 w-auto"
+            />
           </Link>
-          <nav className="hidden md:flex items-center gap-6 text-sm">
-            <Link href="#products" className="text-stone-600 hover:text-amber-700 transition-colors">商品一覧</Link>
-            <Link href="#reviews" className="text-stone-600 hover:text-amber-700 transition-colors">お客様の声</Link>
-            <Link href="#faq" className="text-stone-600 hover:text-amber-700 transition-colors">よくある質問</Link>
-            <Link href="#purchase" className="bg-amber-600 text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-amber-700 transition-colors">ご購入はこちら</Link>
-          </nav>
         </div>
       </header>
 
@@ -136,7 +136,7 @@ export default function UmamisoLP() {
       <section className="relative">
         <div className="relative h-[60vh] md:h-[70vh] bg-stone-100">
           <Image
-            src="/images/umamiso-closeup.jpg"
+            src="/images/umamiso-rice.jpg"
             alt="食べるウマミソ - 馬肉と味噌の極上の組み合わせ"
             fill
             className="object-cover object-center"
@@ -161,7 +161,7 @@ export default function UmamisoLP() {
         </div>
       </section>
 
-      {/* ターゲットに対して購買意欲を高めるセクション */}
+      {/* ターゲットに対して��買意欲を高めるセクション */}
       <section className="py-16 bg-amber-50/50">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
@@ -336,9 +336,9 @@ export default function UmamisoLP() {
       <section id="products" className="py-16 bg-stone-50">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-12 text-stone-800">商品ラインナップ</h2>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+          <div className="flex flex-wrap justify-center gap-6 max-w-6xl mx-auto">
             {products.map((product) => (
-              <Card key={product.id} className="overflow-hidden shadow-lg hover:shadow-xl transition-shadow bg-white border-0">
+              <Card key={product.id} className="overflow-hidden shadow-lg hover:shadow-xl transition-shadow bg-white border-0 w-full sm:w-[280px]">
                 <div className="relative aspect-square w-full bg-stone-100">
                   <Image
                     src={product.image || "/placeholder.svg"}
@@ -527,40 +527,75 @@ export default function UmamisoLP() {
         </div>
       </section>
 
-      {/* フッター */}
-      <footer className="bg-stone-800 text-white py-12">
+      {/* 製造・販売・発送元 */}
+      <section className="py-12 bg-white">
         <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-3 gap-8 mb-8">
-            <div>
-              <h4 className="font-bold text-lg mb-4">会津ブランド館</h4>
-              <p className="text-stone-400 text-sm leading-relaxed">
-                福島県会津の特産品・グルメを全国にお届け。
-                本格喜多方ラーメンをはじめとした会津の味をお楽しみください。
-              </p>
-            </div>
-            <div>
-              <h4 className="font-bold text-lg mb-4">お問い合わせ</h4>
-              <ul className="space-y-2 text-stone-400 text-sm">
-                <li>メール: info@aizubrandhall.com</li>
-                <li>電話: 0120-XXX-XXX</li>
-                <li>営業時間: 9:00〜18:00（土日祝休み）</li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-bold text-lg mb-4">フォローする</h4>
-              <div className="flex gap-4">
-                <Link href="https://twitter.com/Aizu_Brand_Kan" target="_blank" rel="noopener noreferrer" className="text-stone-400 hover:text-white transition-colors">
+          <div className="max-w-3xl mx-auto text-center">
+            <p className="text-base md:text-lg font-semibold text-stone-800 mb-8">
+              {"この商品は「会津ブランド館」が製造・販売・発送を行っています。"}
+            </p>
+            <div className="bg-stone-50 rounded-2xl p-6 md:p-8">
+              <div className="relative w-full aspect-[16/9] max-w-lg mx-auto rounded-lg overflow-hidden shadow-md mb-6">
+                <Image
+                  src="/images/aizu-brand-hall-exterior.jpeg"
+                  alt="会津ブランド館 外観"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <h3 className="text-lg md:text-xl font-bold text-stone-800 mb-6">店舗案内</h3>
+              <div className="space-y-2 text-stone-700 text-sm md:text-base leading-relaxed">
+                <p className="font-bold text-stone-800">会津ブランド館</p>
+                <p>〒965-0044</p>
+                <p>福島県会津若松市七日町6-15</p>
+                <p>TEL: 0242-25-4141</p>
+                <p>営業時間: 11時〜16時</p>
+                <p>定休日: 12月31日・1月1日</p>
+                <p className="text-stone-500 text-xs">（発送もお休みさせて頂きます）</p>
+              </div>
+              <div className="flex items-center justify-center gap-4 mt-6">
+                <Link
+                  href="https://www.facebook.com/aizubrandhall/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-stone-500 hover:text-stone-800 transition-colors text-sm"
+                >
+                  Facebook
+                </Link>
+                <Link
+                  href="https://twitter.com/Aizu_Brand_Kan"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-stone-500 hover:text-stone-800 transition-colors text-sm"
+                >
                   X (Twitter)
                 </Link>
-                <Link href="https://www.instagram.com/aizubrandhall/" target="_blank" rel="noopener noreferrer" className="text-stone-400 hover:text-white transition-colors">
+                <Link
+                  href="https://www.instagram.com/aizubrandhall/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-stone-500 hover:text-stone-800 transition-colors text-sm"
+                >
                   Instagram
+                </Link>
+                <Link
+                  href="https://www.youtube.com/@aizubrandhall"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-stone-500 hover:text-stone-800 transition-colors text-sm"
+                >
+                  YouTube
                 </Link>
               </div>
             </div>
           </div>
-          <div className="border-t border-stone-700 pt-8 text-center text-stone-500 text-sm">
-            <p>&copy; 2025 会津ブランド館. All rights reserved.</p>
-          </div>
+        </div>
+      </section>
+
+      {/* フッター */}
+      <footer className="bg-stone-800 text-white py-6">
+        <div className="container mx-auto px-4 text-center text-stone-400 text-sm">
+          <p>&copy; 2025 AIZU BRAND HALL. All rights reserved.</p>
         </div>
       </footer>
     </>
