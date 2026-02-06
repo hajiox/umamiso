@@ -103,7 +103,7 @@ export default function UmamisoLP() {
     },
     {
       question: "馬肉の臭いが気になりますか？",
-      answer: "馬肉特有の臭みは一切なく、大葉の爽やかな香りとえごまのプチプチ食感がアクセントになっています。レビューでも「臭みゼロで食べやすい���と好評です！明治時代からの会津伝統を現代風にアレンジした味わいをお楽しみください。",
+      answer: "馬肉特有の臭みは一切なく、大葉の爽やかな香りとえごまのプチプチ食感がアクセントになっています。明治時代からの会津伝統を現代風にアレンジした味わいをお楽しみください。",
     },
     {
       question: "おすすめの食べ方は何ですか？",
@@ -122,7 +122,7 @@ export default function UmamisoLP() {
         <div className="container mx-auto px-4 py-3 flex items-center justify-center">
           <Link href="/">
             <Image
-              src="/images/aizu-brand-hall-logo.png"
+              src="/images/aizu-brand-hall-logo.jpg"
               alt="会津ブランド館"
               width={180}
               height={48}
@@ -175,7 +175,7 @@ export default function UmamisoLP() {
                 会津ブランド館の食べるうまみそは、のせる・和える・仕上げに使える<strong className="text-amber-700">"食べる調味料"</strong>。
               </p>
               <p>
-                白ごはんはも��ろん、野菜やお肉、冷奴にもよく合います。
+                白ごはんはもちろん、野菜やお肉、冷奴にもよく合います。
               </p>
               <p>
                 会津の素材を生かした、コクがあるのに食べやすい味わい。
@@ -335,7 +335,7 @@ export default function UmamisoLP() {
       {/* 商品カードセクション */}
       <section id="products" className="py-16 bg-stone-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-2xl md:text-3xl font-bold text-center mb-12 text-stone-800">商品��インナップ</h2>
+          <h2 className="text-2xl md:text-3xl font-bold text-center mb-12 text-stone-800">商品ラインナップ</h2>
           <div className="flex flex-wrap justify-center gap-6 max-w-6xl mx-auto">
             {products.map((product) => (
               <Card key={product.id} className="overflow-hidden shadow-lg hover:shadow-xl transition-shadow bg-white border-0 w-full sm:w-[280px]">
@@ -477,7 +477,7 @@ export default function UmamisoLP() {
                 </div>
               </Link>
               <h4 className="font-bold mb-2 text-center text-stone-800">Yahoo!ショッピング</h4>
-              <p className="text-sm text-center text-stone-600">PayPayポイ��トが貯まる使えるショッピングモールはこちら</p>
+              <p className="text-sm text-center text-stone-600">PayPayポイントが貯まる使えるショッピングモールはこちら</p>
             </div>
 
             {/* 楽天市場 */}
