@@ -136,7 +136,7 @@ export default function UmamisoLP() {
       <section className="relative">
         <div className="relative h-[60vh] md:h-[70vh] bg-stone-100">
           <Image
-            src="/images/umamiso-closeup.jpg"
+            src="/images/umamiso-rice.jpg"
             alt="食べるウマミソ - 馬肉と味噌の極上の組み合わせ"
             fill
             className="object-cover object-center"
@@ -161,7 +161,7 @@ export default function UmamisoLP() {
         </div>
       </section>
 
-      {/* ターゲットに対して購買意欲を高めるセクション */}
+      {/* ターゲットに対して��買意欲を高めるセクション */}
       <section className="py-16 bg-amber-50/50">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
@@ -535,6 +535,14 @@ export default function UmamisoLP() {
               {"この商品は「会津ブランド館」が製造・販売・発送を行っています。"}
             </p>
             <div className="bg-stone-50 rounded-2xl p-6 md:p-8">
+              <div className="relative w-full aspect-[16/9] max-w-lg mx-auto rounded-lg overflow-hidden shadow-md mb-6">
+                <Image
+                  src="/images/aizu-brand-hall-exterior.jpeg"
+                  alt="会津ブランド館 外観"
+                  fill
+                  className="object-cover"
+                />
+              </div>
               <h3 className="text-lg md:text-xl font-bold text-stone-800 mb-6">店舗案内</h3>
               <div className="space-y-2 text-stone-700 text-sm md:text-base leading-relaxed">
                 <p className="font-bold text-stone-800">会津ブランド館</p>
