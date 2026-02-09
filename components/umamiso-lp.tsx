@@ -156,8 +156,8 @@ export default function UmamisoLP() {
       <section className="relative">
         <div className="relative h-[60vh] md:h-[70vh] bg-stone-100">
           <Image
-            src="/images/umamiso-closeup.jpg"
-            alt="食べるウマミソ - 馬肉と味噌の極上の組み合わせ"
+            src="/images/hero-umamiso.jpg"
+            alt="食べるウマミソ - ご飯にのせたウマ味噌"
             fill
             className="object-cover object-center"
             priority
@@ -175,7 +175,7 @@ export default function UmamisoLP() {
             <p className="text-base md:text-lg text-stone-600 max-w-2xl mx-auto leading-relaxed">
               TBSラジオで絶賛！楽天・Yahoo!ショッピングで高評価続出。
               <br className="hidden md:block" />
-              高タンパク・低カロリーな希少馬肉を、伝統の味噌と大葉・えごまで仕上げた極上の逸品。
+              高タンパク・低カロリーな希少馬肉を、伝統の味噌と大葉・えごまで仕上げた極上の���品。
             </p>
           </div>
         </div>
