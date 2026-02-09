@@ -115,7 +115,7 @@ export default function UmamisoLP() {
   const faqs = [
     {
       question: "保存方法はどうしたらいいですか？",
-      answer: "未開封時は常温保存が可能です。開封後は冷蔵庫で保管し、1週間以内にお召し上がりください。賞味期限は製造日から1年（発送時は6ヶ月以上のものを保証）。高温多湿を避け、直射日光の当たらない場所で保存をおすすめします。",
+      answer: "未開封時は常温保存が可能です。開封後は冷蔵庫で保管し、お早めにお召し上がりください。賞味期限は製造日から1年（発送時は6ヶ月以上のものを保証）。高温多湿を避け、直射日光の当たらない場所で保存をおすすめします。",
     },
     {
       question: "アレルギー成分は含まれていますか？",
@@ -131,7 +131,7 @@ export default function UmamisoLP() {
     },
     {
       question: "内容量や価格は？",
-      answer: "内容量は120g × 2個セットで、価格は1,780円（税込）。馬肉、ごろごろ具材たっぷりで食べ応え抜群。ギフト包装も対応可能です。その他のご質問があれば、レビュー投稿や公式X（@Aizu_Brand_Kan）でシェアしてください。皆さんの声で商品をさらに良くしていきます♪",
+      answer: "内容量は120g × 2個セットで、価格は1,780円（税込）。馬肉、ごろごろ具材たっぷりで食べ応え抜群。",
     },
   ]
 
@@ -560,6 +560,14 @@ export default function UmamisoLP() {
                 <p>営業時間: 11時〜16時</p>
                 <p>定休日: 12月31日・1月1日</p>
                 <p className="text-stone-400 text-xs mt-1">{'（年末年始はお休みさせて頂きます）'}</p>
+                <Link
+                  href="https://maps.app.goo.gl/ybQgdocFWiihYVwi7"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block mt-3 text-amber-400 hover:text-amber-300 text-sm underline transition-colors"
+                >
+                  Google Maps で見る
+                </Link>
               </div>
             </div>
             <div className="flex-1">
