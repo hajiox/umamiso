@@ -106,7 +106,7 @@ export default function UmamisoLP() {
       answer: "馬肉特有の臭みは一切なく、大葉の爽やかな香りとえごまのプチプチ食感がアクセントになっています。レビューでも「臭みゼロで食べやすい」と好評です！明治時代からの会津伝統を現代風にアレンジした味わいをお楽しみください。",
     },
     {
-      question: "おすすめの食べ方は���ですか？",
+      question: "おすすめの食べ方は何ですか？",
       answer: "温かいご飯にのせてお召し上がりください！おにぎりの具材としても抜群です。また、豆腐や野菜のトッピング、チャーハンや卵焼きの具にアレンジ可能。高たんぱく低カロリーなので、ヘルシーな一品にぴったり。",
     },
     {
@@ -119,16 +119,16 @@ export default function UmamisoLP() {
     <>
       {/* ヘッダー */}
       <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-stone-200">
-        <div className="container mx-auto px-4 py-3 flex items-center justify-between">
-          <Link href="/" className="flex items-center gap-2">
-            <span className="text-lg font-bold text-stone-800">会津ブランド館</span>
+        <div className="container mx-auto px-4 py-2 flex items-center justify-center">
+          <Link href="/">
+            <Image
+              src="/images/aizu-brand-hall-logo.jpg"
+              alt="会津ブランド館"
+              width={120}
+              height={120}
+              className="h-12 w-auto"
+            />
           </Link>
-          <nav className="hidden md:flex items-center gap-6 text-sm">
-            <Link href="#products" className="text-stone-600 hover:text-amber-700 transition-colors">商品一覧</Link>
-            <Link href="#reviews" className="text-stone-600 hover:text-amber-700 transition-colors">お客様の声</Link>
-            <Link href="#faq" className="text-stone-600 hover:text-amber-700 transition-colors">よくある質問</Link>
-            <Link href="#purchase" className="bg-amber-600 text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-amber-700 transition-colors">ご購入はこちら</Link>
-          </nav>
         </div>
       </header>
 
@@ -181,7 +181,7 @@ export default function UmamisoLP() {
                 会津の素材を生かした、コクがあるのに食べやすい味わい。
               </p>
               <p>
-                世代を��わず、毎日の食卓で活躍します。
+                世代を問わず、毎日の食卓で活躍します。
               </p>
               <p className="text-lg md:text-xl font-semibold text-amber-800 pt-4">
                 冷蔵庫にあると頼れる一品を、ぜひお試しください。
@@ -530,36 +530,32 @@ export default function UmamisoLP() {
       {/* フッター */}
       <footer className="bg-stone-800 text-white py-12">
         <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-3 gap-8 mb-8">
-            <div>
-              <h4 className="font-bold text-lg mb-4">会津ブランド館</h4>
-              <p className="text-stone-400 text-sm leading-relaxed">
-                福島県会津の特産品・グルメを全国にお届け。
-                本格喜多方ラーメンをはじめとした会津の味をお楽しみください。
-              </p>
+          <div className="flex flex-col md:flex-row items-start justify-center gap-8 mb-8 max-w-4xl mx-auto">
+            <div className="flex-1">
+              <h4 className="font-bold text-lg mb-4">店舗案内</h4>
+              <p className="text-xl font-bold mb-3">会津ブランド館</p>
+              <div className="text-stone-300 text-sm leading-relaxed space-y-1">
+                <p>{'\u3012'}965-0044</p>
+                <p>福島県会津若松市七日町6-15</p>
+                <p>TEL: 0242-25-1441</p>
+                <p>営業時間: 11時〜16時</p>
+                <p>定休日: 12月31日・1月1日</p>
+                <p className="text-stone-400 text-xs mt-1">{'（年末年始はお休みさせて頂きます）'}</p>
+              </div>
             </div>
-            <div>
-              <h4 className="font-bold text-lg mb-4">お問い合わせ</h4>
-              <ul className="space-y-2 text-stone-400 text-sm">
-                <li>メール: info@aizubrandhall.com</li>
-                <li>電話: 0120-XXX-XXX</li>
-                <li>営業時間: 9:00〜18:00（土日祝休み）</li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-bold text-lg mb-4">フォローする</h4>
-              <div className="flex gap-4">
-                <Link href="https://twitter.com/Aizu_Brand_Kan" target="_blank" rel="noopener noreferrer" className="text-stone-400 hover:text-white transition-colors">
-                  X (Twitter)
-                </Link>
-                <Link href="https://www.instagram.com/aizubrandhall/" target="_blank" rel="noopener noreferrer" className="text-stone-400 hover:text-white transition-colors">
-                  Instagram
-                </Link>
+            <div className="flex-1">
+              <div className="relative aspect-[4/3] w-full rounded-lg overflow-hidden shadow-lg">
+                <Image
+                  src="/images/aizu-brand-hall-exterior.jpg"
+                  alt="会津ブランド館 外観"
+                  fill
+                  className="object-cover"
+                />
               </div>
             </div>
           </div>
-          <div className="border-t border-stone-700 pt-8 text-center text-stone-500 text-sm">
-            <p>&copy; 2025 会津ブランド館. All rights reserved.</p>
+          <div className="border-t border-stone-700 pt-8 text-center text-stone-400 text-sm">
+            <p>&copy; 2025 AIZU BRAND HALL. All rights reserved.</p>
           </div>
         </div>
       </footer>
