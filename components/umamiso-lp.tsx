@@ -106,7 +106,7 @@ export default function UmamisoLP() {
       answer: "馬肉特有の臭みは一切なく、大葉の爽やかな香りとえごまのプチプチ食感がアクセントになっています。レビューでも「臭みゼロで食べやすい」と好評です！明治時代からの会津伝統を現代風にアレンジした味わいをお楽しみください。",
     },
     {
-      question: "おすすめの食べ方は何ですか？",
+      question: "おすすめの食べ方は���ですか？",
       answer: "温かいご飯にのせてお召し上がりください！おにぎりの具材としても抜群です。また、豆腐や野菜のトッピング、チャーハンや卵焼きの具にアレンジ可能。高たんぱく低カロリーなので、ヘルシーな一品にぴったり。",
     },
     {
@@ -181,7 +181,7 @@ export default function UmamisoLP() {
                 会津の素材を生かした、コクがあるのに食べやすい味わい。
               </p>
               <p>
-                世代を問わず、毎日の食卓で活躍します。
+                世代を��わず、毎日の食卓で活躍します。
               </p>
               <p className="text-lg md:text-xl font-semibold text-amber-800 pt-4">
                 冷蔵庫にあると頼れる一品を、ぜひお試しください。
@@ -336,15 +336,15 @@ export default function UmamisoLP() {
       <section id="products" className="py-16 bg-stone-50">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-12 text-stone-800">商品ラインナップ</h2>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-3xl mx-auto">
             {products.map((product) => (
               <Card key={product.id} className="overflow-hidden shadow-lg hover:shadow-xl transition-shadow bg-white border-0">
-                <div className="relative aspect-square w-full bg-stone-100">
+                <div className="relative aspect-[3/4] w-full bg-stone-100">
                   <Image
                     src={product.image || "/placeholder.svg"}
                     alt={product.title}
                     fill
-                    className="object-contain p-4"
+                    className="object-contain p-6"
                   />
                   {product.badge && (
                     <div className="absolute top-3 left-3 bg-amber-600 text-white px-3 py-1 rounded-full text-xs font-bold">
@@ -353,7 +353,7 @@ export default function UmamisoLP() {
                   )}
                 </div>
                 <CardHeader className="pb-2">
-                  <CardTitle className="text-base leading-tight text-stone-800">{product.title}</CardTitle>
+                  <CardTitle className="text-base md:text-lg leading-tight text-stone-800">{product.title}</CardTitle>
                   <CardDescription className="text-sm text-amber-700 font-medium">{product.description}</CardDescription>
                 </CardHeader>
                 <CardContent>
