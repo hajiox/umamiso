@@ -560,14 +560,18 @@ export default function UmamisoLP() {
                 <p>営業時間: 11時〜16時</p>
                 <p>定休日: 12月31日・1月1日</p>
                 <p className="text-stone-400 text-xs mt-1">{'（年末年始はお休みさせて頂きます）'}</p>
-                <Link
-                  href="https://maps.app.goo.gl/ybQgdocFWiihYVwi7"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block mt-3 text-amber-400 hover:text-amber-300 text-sm underline transition-colors"
-                >
-                  Google Maps で見る
-                </Link>
+              </div>
+              <div className="mt-4 rounded-lg overflow-hidden shadow-lg">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3130.8!2d139.9177!3d37.4946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8a9e5a5a5a5a5b%3A0x0!2z5Lya5rSl44OW44Op44Oz44OJ6aSo!5e0!3m2!1sja!2sjp!4v1700000000000!5m2!1sja!2sjp"
+                  width="100%"
+                  height="200"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="会津ブランド館 地図"
+                />
               </div>
             </div>
             <div className="flex-1">
