@@ -115,7 +115,7 @@ export default function UmamisoLP() {
   const faqs = [
     {
       question: "保存方法はどうしたらいいですか？",
-      answer: "未開封時は常温保存が可能です。開封後は冷蔵庫で保管し、1週間以内にお召し上がりください。賞味期限は製造日から1年（発送時は6ヶ月以上のものを保証）。高温多湿を避け、直射日光の当たらない場所で保存をおすすめします。",
+      answer: "未開封時は常温保存が可能です。開封後は冷蔵庫で保管し、お早めにお召し上がりください。賞味期限は製造日から1年（発送時は6ヶ月以上のものを保証）。高温多湿を避け、直射日光の当たらない場所で保存をおすすめします。",
     },
     {
       question: "アレルギー成分は含まれていますか？",
@@ -131,7 +131,7 @@ export default function UmamisoLP() {
     },
     {
       question: "内容量や価格は？",
-      answer: "内容量は120g × 2個セットで、価格は1,780円（税込）。馬肉、ごろごろ具材たっぷりで食べ応え抜群。ギフト包装も対応可能です。その他のご質問があれば、レビュー投稿や公式X（@Aizu_Brand_Kan）でシェアしてください。皆さんの声で商品をさらに良くしていきます♪",
+      answer: "内容量は120g × 2個セットで、価格は1,780円（税込）。馬肉、ごろごろ具材たっぷりで食べ応え抜群。",
     },
   ]
 
@@ -572,6 +572,18 @@ export default function UmamisoLP() {
                 />
               </div>
             </div>
+          </div>
+          <div className="max-w-4xl mx-auto mb-8 rounded-lg overflow-hidden shadow-lg">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3130.8!2d139.9177!3d37.4946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8a9e5a5a5a5a5b%3A0x0!2z5Lya5rSl44OW44Op44Oz44OJ6aSo!5e0!3m2!1sja!2sjp!4v1700000000000!5m2!1sja!2sjp"
+              width="100%"
+              height="350"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="会津ブランド館 地図"
+            />
           </div>
           <div className="border-t border-stone-700 pt-8 text-center text-stone-400 text-sm">
             <p>&copy; 2025 AIZU BRAND HALL. All rights reserved.</p>
