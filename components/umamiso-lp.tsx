@@ -93,17 +93,17 @@ export default function UmamisoLP() {
     {
       title: "馬肉の秘密",
       description: "牛肉や豚肉よりも高タンパク、なのに低カロリー。鉄分やビタミンB12も豊富な馬肉は、現代人の健康維持に最適です。",
-      image: "/images/hf-20260129-052152-fed6388f-9a21-43e6-b403.jpeg",
+      image: "/images/horse-field.jpg",
     },
     {
       title: "米味噌のコク",
       description: "会津の気候が育んだ深い味わい。",
-      image: "/images/miso-illustration.jpg",
+      image: "/images/miso-soybeans.jpg",
     },
     {
       title: "大葉の清涼感",
       description: "肉味噌の概念を覆す、後味の爽やかさ。",
-      image: "/images/shiso-leaf.png",
+      image: "/images/shiso-leaf.jpg",
     },
     {
       title: "えごまの食感",
@@ -328,7 +328,7 @@ export default function UmamisoLP() {
                 会津畜産 – 馬刺しの品質を支える匠の技
               </h3>
               <p className="text-stone-700 mb-6 leading-relaxed">
-                会津の馬刺しを支えるのが、会津畜産。全国（主に北海道）の生産者から素馬を仕入れ、自社の牧場で3ヶ月から2年かけて丁寧に肥育。独自の配合飼料（遊離アミノ酸含有量を増やし旨味を引き出す）を与え、約400頭の馬を健康的に育てています。
+                会津の馬刺しを支えるのが、会津畜産。全国（主に北海道）の生産者から素馬を仕入れ���自社の牧場で3ヶ月から2年かけて丁寧に肥育。独自の配合飼料（遊離アミノ酸含有量を増やし旨味を引き出す）を与え、約400頭の馬を健康的に育てています。
               </p>
               
               {/* 厩舎とX線検査の写真 */}
@@ -343,8 +343,8 @@ export default function UmamisoLP() {
                 </div>
                 <div className="relative aspect-[4/3] w-full rounded-lg overflow-hidden shadow-md">
                   <Image
-                    src="/images/xray-inspection.jpg"
-                    alt="X線検査による品質管理"
+                    src="/images/basashi-detail.jpg"
+                    alt="新鮮な馬刺し"
                     fill
                     className="object-cover"
                   />
