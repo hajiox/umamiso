@@ -229,6 +229,15 @@ export default function UmamisoLP() {
               最終候補に残ったその味を、ぜひご体感ください。
             </p>
             <div className="w-16 h-px bg-amber-500 mx-auto" />
+            <div className="mt-8">
+              <Image
+                src="/images/tbs-radio-banner.png"
+                alt="TBSラジオ パンサー向井の#ふらっとにて、食べるウマミソが紹介されました！"
+                width={800}
+                height={420}
+                className="w-full max-w-2xl mx-auto rounded-lg shadow-lg"
+              />
+            </div>
           </div>
 
           {/* ランキング画像 */}
