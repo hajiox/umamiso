@@ -170,7 +170,7 @@ export default function UmamisoLP() {
               <br />
               これひとつで<span className="text-amber-700">"会津のうまみ"</span>。
               <br />
-              <span className="text-amber-700">至福の『ウマ味噌』体験。</span>
+              <span className="text-amber-700">至福の『ウマミソ』体験。</span>
             </h1>
             <p className="text-base md:text-lg text-stone-600 max-w-2xl mx-auto leading-relaxed">
               TBSラジオで絶賛！楽天・Yahoo!ショッピングで高評価続出。
@@ -328,7 +328,7 @@ export default function UmamisoLP() {
                 会津畜産 – 馬刺しの品質を支える匠の技
               </h3>
               <p className="text-stone-700 mb-6 leading-relaxed">
-                会津の馬刺しを支えるのが、会津畜産。全国（主に北海道）の生産者から素馬を仕入れ、自社の牧場で3ヶ月から2年かけて丁寧に肥育。独自の配合飼料（遊離アミノ酸含有量を増やし旨味を引き出す）を与え、約400頭の馬を健康的に育てています。
+                会津の馬刺しを支えるのが、会津畜産。全国（主に北海道）の生産者から素馬を仕入れ���自社の牧場で3ヶ月から2年かけて丁寧に肥育。独自の配合飼料（遊離アミノ酸含有量を増やし旨味を引き出す）を与え、約400頭の馬を健康的に育てています。
               </p>
               
               {/* 厩舎とX線検査の写真 */}
