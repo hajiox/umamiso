@@ -211,10 +211,28 @@ export default function UmamisoLP() {
         </div>
       </section>
 
-      {/* ランキングセクション */}
-      <section className="py-8 bg-white">
+      {/* メディア紹介・訴求セクション */}
+      <section className="py-12 md:py-16 bg-stone-900 text-white">
         <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8 max-w-3xl mx-auto">
+          <div className="max-w-3xl mx-auto text-center space-y-6">
+            <p className="text-amber-400 font-bold text-sm md:text-base tracking-widest uppercase">Media Featured</p>
+            <h2 className="text-2xl md:text-3xl font-bold leading-relaxed text-balance">
+              {'BSラジオ「パンサー向井の#ふらっと」'}
+              <br />
+              {'ご飯のお供選手権にて'}
+              <br className="md:hidden" />
+              {'最終候補まで勝ち上がった実力派商品。'}
+            </h2>
+            <p className="text-stone-300 text-base md:text-lg leading-relaxed max-w-xl mx-auto">
+              {'全国の"ご飯のお供"の中から選ばれ、'}
+              <br />
+              最終候補に残ったその味を、ぜひご体感ください。
+            </p>
+            <div className="w-16 h-px bg-amber-500 mx-auto" />
+          </div>
+
+          {/* ランキング画像 */}
+          <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8 max-w-3xl mx-auto mt-10">
             <Image
               src="/images/10000085.jpg"
               alt="楽天市場ランキング堂々1位獲得"
