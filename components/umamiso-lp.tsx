@@ -93,17 +93,17 @@ export default function UmamisoLP() {
     {
       title: "馬肉の秘密",
       description: "牛肉や豚肉よりも高タンパク、なのに低カロリー。鉄分やビタミンB12も豊富な馬肉は、現代人の健康維持に最適です。",
-      image: "/images/hf-20260129-052152-fed6388f-9a21-43e6-b403.jpeg",
+      image: "/images/horse-field.jpg",
     },
     {
       title: "米味噌のコク",
       description: "会津の気候が育んだ深い味わい。",
-      image: "/images/miso-illustration.jpg",
+      image: "/images/miso-soybeans.jpg",
     },
     {
       title: "大葉の清涼感",
       description: "肉味噌の概念を覆す、後味の爽やかさ。",
-      image: "/images/shiso-leaf.png",
+      image: "/images/shiso-leaf.jpg",
     },
     {
       title: "えごまの食感",
@@ -170,7 +170,7 @@ export default function UmamisoLP() {
               <br />
               これひとつで<span className="text-amber-700">"会津のうまみ"</span>。
               <br />
-              <span className="text-amber-700">至福の『ウマ味噌』体験。</span>
+              <span className="text-amber-700">至福の『ウマミソ』体験。</span>
             </h1>
             <p className="text-base md:text-lg text-stone-600 max-w-2xl mx-auto leading-relaxed">
               TBSラジオで絶賛！楽天・Yahoo!ショッピングで高評価続出。
@@ -211,10 +211,37 @@ export default function UmamisoLP() {
         </div>
       </section>
 
-      {/* ランキングセクション */}
-      <section className="py-8 bg-white">
+      {/* メディア紹介・訴求セクション */}
+      <section className="py-12 md:py-16 bg-stone-900 text-white">
         <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8 max-w-3xl mx-auto">
+          <div className="max-w-3xl mx-auto text-center space-y-6">
+            <p className="text-amber-400 font-bold text-sm md:text-base tracking-widest uppercase">Media Featured</p>
+            <h2 className="text-2xl md:text-3xl font-bold leading-relaxed text-balance">
+              {'BSラジオ「パンサー向井の#ふらっと」'}
+              <br />
+              {'ご飯のお供選手権にて'}
+              <br className="md:hidden" />
+              {'最終候補まで勝ち上がった実力派商品。'}
+            </h2>
+            <p className="text-stone-300 text-base md:text-lg leading-relaxed max-w-xl mx-auto">
+              {'全国の"ご飯のお供"の中から選ばれ、'}
+              <br />
+              最終候補に残ったその味を、ぜひご体感ください。
+            </p>
+            <div className="w-16 h-px bg-amber-500 mx-auto" />
+            <div className="mt-8">
+              <Image
+                src="/images/tbs-radio-banner.png"
+                alt="TBSラジオ パンサー向井の#ふらっとにて、食べるウマミソが紹介されました！"
+                width={800}
+                height={420}
+                className="w-full max-w-2xl mx-auto rounded-lg shadow-lg"
+              />
+            </div>
+          </div>
+
+          {/* ランキング画像 */}
+          <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8 max-w-3xl mx-auto mt-10">
             <Image
               src="/images/10000085.jpg"
               alt="楽天市場ランキング堂々1位獲得"
@@ -316,8 +343,8 @@ export default function UmamisoLP() {
                 </div>
                 <div className="relative aspect-[4/3] w-full rounded-lg overflow-hidden shadow-md">
                   <Image
-                    src="/images/xray-inspection.jpg"
-                    alt="X線検査による品質管理"
+                    src="/images/basashi-detail.jpg"
+                    alt="新鮮な馬刺し"
                     fill
                     className="object-cover"
                   />
