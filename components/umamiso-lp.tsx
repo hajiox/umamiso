@@ -328,7 +328,7 @@ export default function UmamisoLP() {
                 会津畜産 – 馬刺しの品質を支える匠の技
               </h3>
               <p className="text-stone-700 mb-6 leading-relaxed">
-                会津の馬刺しを支えるのが、会津畜産。全国（主に北海道）の生産者から素馬を仕入れ、自社の牧場で3ヶ月から2年かけて丁寧に肥育。独自の配合飼料（遊離アミノ酸含有量を増やし旨味を引き出す）を与え、約400頭の馬を健康的に育てています。
+                会津の馬刺しを支えるのが、会津畜産。全国（主に北海道）の生産者から素馬を仕入れ、自社の牧場で3ヶ月から2��かけて丁寧に肥育。独自の配合飼料（遊離アミノ酸含有量を増やし旨味を引き出す）を与え、約400頭の馬を健康的に育てています。
               </p>
               
               {/* 厩舎とX線検査の写真 */}
@@ -576,8 +576,8 @@ export default function UmamisoLP() {
       {/* フッター */}
       <footer className="bg-stone-800 text-white py-12">
         <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row items-start justify-center gap-8 mb-8 max-w-4xl mx-auto">
-            <div className="flex-1">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8 max-w-4xl mx-auto">
+            <div>
               <h4 className="font-bold text-lg mb-4">店舗案内</h4>
               <p className="text-xl font-bold mb-3">会津ブランド館</p>
               <div className="text-stone-300 text-sm leading-relaxed space-y-1">
@@ -589,7 +589,7 @@ export default function UmamisoLP() {
                 <p className="text-stone-400 text-xs mt-1">{'（年末年始はお休みさせて頂きます）'}</p>
               </div>
             </div>
-            <div className="flex-1">
+            <div className="w-full">
               <div className="relative aspect-[4/3] w-full rounded-lg overflow-hidden shadow-lg">
                 <Image
                   src="/images/aizu-brand-hall-exterior.jpg"
