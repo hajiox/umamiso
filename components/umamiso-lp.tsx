@@ -328,7 +328,7 @@ export default function UmamisoLP() {
                 会津畜産 – 馬刺しの品質を支える匠の技
               </h3>
               <p className="text-stone-700 mb-6 leading-relaxed">
-                会津の馬刺しを支えるのが、会津畜産。全国（主に北海道）の生産者から素馬を仕入れ、自社の牧場で3ヶ月から2��かけて丁寧に肥育。独自の配合飼料（遊離アミノ酸含有量を増やし旨味を引き出す）を与え、約400頭の馬を健康的に育てています。
+                会津の馬刺しを支えるのが、会津畜産。全国（主に北海道）の生産者から素馬を仕入れ、自社の牧場で3ヶ月から2ヶ月かけて丁寧に肥育。独自の配合飼料（遊離アミノ酸含有量を増やし旨味を引き出す）を与え、約400頭の馬を健康的に育てています。
               </p>
               
               {/* 厩舎とX線検査の写真 */}
@@ -343,8 +343,8 @@ export default function UmamisoLP() {
                 </div>
                 <div className="relative aspect-[4/3] w-full rounded-lg overflow-hidden shadow-md">
                   <Image
-                    src="/images/basashi-detail.jpg"
-                    alt="新鮮な馬刺し"
+                    src="/images/xray-inspection.jpg"
+                    alt="X線検査による品質管理"
                     fill
                     className="object-cover"
                   />
