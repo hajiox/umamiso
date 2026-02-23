@@ -75,7 +75,7 @@ export default function UmamisoLP() {
       id: "2set",
       title: "馬肉物語 食べるウマミソ 2個セット",
       description: "先ずはお試しに",
-      price: "1,680円（送料無料）",
+      price: "1,780円（送料無料）",
       image: "/images/aizubrandhall-4571318633588-i-20231023134652.jpeg",
       badge: null,
     },
@@ -83,7 +83,7 @@ export default function UmamisoLP() {
       id: "umara-set",
       title: "ウマラー＆ウマミソセット",
       description: "馬肉物語セット",
-      price: "1,680円（送料無料）",
+      price: "1,780円（送料無料）",
       image: "/images/aizubrandhall-4571318634455-i-20240514124653.jpeg",
     },
   ]
@@ -130,7 +130,7 @@ export default function UmamisoLP() {
     },
     {
       question: "内容量や価格は？",
-      answer: "内容量は120g × 2個セットで、価格は1,680円（税込）。馬肉、ごろごろ具材たっぷりで食べ応え抜群。",
+      answer: "内容量は120g × 2個セットで、価格は1,780円（税込）。馬肉、ごろごろ具材たっぷりで食べ応え抜群。",
     },
   ]
 
