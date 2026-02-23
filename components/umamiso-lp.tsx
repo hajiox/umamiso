@@ -118,11 +118,11 @@ export default function UmamisoLP() {
     },
     {
       question: "アレルギー成分は含まれていますか？",
-      answer: "はい、原材料に小麦・大豆が含まれています（しょうゆ由来）。また、一部にえごまや唐辛子を使用しています。アレルギー体質の方は成分表をよくご確認ください。馬肉自体はアレルゲンではありませんが、気になる場合は医師にご相談を。",
+      answer: "はい、原材料に小麦・大豆が含まれています（しょうゆ由来）。また、一部にえごまや唐辛子を使用しています。アレルギー体質の方は成分表をよくご確認ください。",
     },
     {
       question: "馬肉の臭いが気になりますか？",
-      answer: "馬肉特有の臭みは一切なく、大葉の爽やかな香りとえごまのプチプチ食感がアクセントになっています。レビューでも「臭みゼロで食べやすい」と好評です！明治時代からの会津伝統を現代風にアレンジした味わいをお楽しみください。",
+      answer: "馬肉特有の臭みは一切なく、大葉の爽やかな香りとえごまのプチプチ食感がアクセントになっています。レビューでも「臭みゼロで食べやすい」と好評です！",
     },
     {
       question: "おすすめの食べ方は何ですか？",
@@ -327,7 +327,7 @@ export default function UmamisoLP() {
                 会津畜産 – 馬刺しの品質を支える匠の技
               </h3>
               <p className="text-stone-700 mb-6 leading-relaxed">
-                会津の馬刺しを支えるのが、会津畜産。全国（主に北海道）の生産者から素馬を仕入れ、自社の牧場で{`3ヶ月から2ヶ月かけて`}��寧に肥育。独自の配合飼料（遊離アミノ酸含有量を増やし旨味を引き出す）を与え、約400頭の馬を健康的に育てています。
+                会津の馬刺しを支えるのが、会津畜産。全国（主に北海道）の生産者から素馬を仕入れ、自社の牧場で{`3ヶ月から2ヶ月かけて`}���寧に肥育。独自の配合飼料（遊離アミノ酸含有量を増やし旨味を引き出す）を与え、約400頭の馬を健康的に育てています。
               </p>
               
               {/* 厩舎とX線検査の写真 */}
@@ -523,6 +523,7 @@ export default function UmamisoLP() {
               </Link>
               <h4 className="font-bold mb-2 text-center text-stone-800">Yahoo!ショッピング</h4>
               <p className="text-sm text-center text-stone-600">PayPayポイントが貯まる使えるショッピングモールはこちら</p>
+              <p className="text-sm text-center text-red-600 font-bold mt-3">初めて当店をご利用のお客様に300円クーポン進呈中！</p>
             </div>
 
             {/* 楽天市場 */}
@@ -545,6 +546,7 @@ export default function UmamisoLP() {
               </Link>
               <h4 className="font-bold mb-2 text-center text-stone-800">楽天市場</h4>
               <p className="text-sm text-center text-stone-600">楽天ポイントが使える国内最大級のショッピングモールはこちら</p>
+              <p className="text-sm text-center text-red-600 font-bold mt-3">初めて当店をご利用のお客様に300円クーポン進呈中！</p>
             </div>
 
             {/* Amazon */}
