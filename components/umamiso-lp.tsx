@@ -381,6 +381,7 @@ export default function UmamisoLP() {
       {/* YouTube動画セクション */}
       <section className="py-12 bg-stone-100">
         <div className="container mx-auto px-4">
+          <h2 className="text-2xl md:text-3xl font-bold text-center mb-8 text-stone-800">YouTubeやその他SNSでも紹介しています。</h2>
           <div className="max-w-md mx-auto">
             <div className="relative w-full aspect-[9/16] rounded-xl overflow-hidden shadow-lg">
               <iframe
@@ -399,7 +400,7 @@ export default function UmamisoLP() {
       <section id="products" className="py-16 bg-stone-50">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-12 text-stone-800">商品ラインナップ</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-3xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-3xl lg:max-w-5xl mx-auto">
             {products.map((product) => (
               <Card key={product.id} className="overflow-hidden shadow-lg hover:shadow-xl transition-shadow bg-white border-0">
                 <div className="relative aspect-[3/4] w-full bg-stone-100">
