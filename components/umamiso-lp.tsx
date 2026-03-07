@@ -191,7 +191,7 @@ export default function UmamisoLP() {
             </h2>
             <div className="text-base md:text-lg leading-relaxed text-stone-700 space-y-4">
               <p>
-                会津ブランド館の食べるうまみそは、のせる・和える・仕上げに使える<strong className="text-amber-700">"食べる調味料"</strong>。
+                会津ブランド館の食べるウマミソは、のせる・和える・仕上げに使える<strong className="text-amber-700">"食べる調味料"</strong>。
               </p>
               <p>
                 白ごはんはもちろん、野菜やお肉、冷奴にもよく合います。
