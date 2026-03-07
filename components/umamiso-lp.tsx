@@ -378,6 +378,23 @@ export default function UmamisoLP() {
         </div>
       </section>
 
+      {/* YouTube動画セクション */}
+      <section className="py-12 bg-stone-100">
+        <div className="container mx-auto px-4">
+          <div className="max-w-md mx-auto">
+            <div className="relative w-full aspect-[9/16] rounded-xl overflow-hidden shadow-lg">
+              <iframe
+                src="https://www.youtube.com/embed/6hYevFOD1as"
+                title="食べるウマミソ紹介動画"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="absolute inset-0 w-full h-full"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* 商品カードセクション */}
       <section id="products" className="py-16 bg-stone-50">
         <div className="container mx-auto px-4">
