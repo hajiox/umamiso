@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     title: "食べるウマミソ｜馬肉×味噌の極上グルメ【会津ブランド館】",
     description:
       "高タンパク・低カロリーな希少馬肉を、伝統の味噌と大葉・えごまで仕上げた極上の逸品。ごはんにのせるだけで至福の味わい。送料無料でお届け。",
-    url: "https://your-domain.com/umamiso",
+    url: "https://umamiso.aizu-syokubura.com",
     siteName: "会津ブランド館",
     images: [
       {
@@ -62,7 +62,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://your-domain.com/umamiso",
+    canonical: "https://umamiso.aizu-syokubura.com",
   },
   category: "food",
   classification: "食品・グルメ",

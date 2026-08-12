@@ -14,7 +14,7 @@ const notoSansJP = Noto_Sans_JP({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://your-domain.com"),
+  metadataBase: new URL("https://umamiso.aizu-syokubura.com"),
   title: {
     default: "会津ブランド館｜福島県会津の特産品・グルメ通販",
     template: "%s | 会津ブランド館",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   applicationName: "会津ブランド館",
   referrer: "origin-when-cross-origin",
   keywords: ["会津", "福島", "特産品", "グルメ", "通販", "喜多方ラーメン", "食べるウマミソ", "馬肉"],
-  authors: [{ name: "会津ブランド館", url: "https://your-domain.com" }],
+  authors: [{ name: "会津ブランド館", url: "https://umamiso.aizu-syokubura.com" }],
   creator: "会津ブランド館",
   publisher: "会津ブランド館",
   formatDetection: {
